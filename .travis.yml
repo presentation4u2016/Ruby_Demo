@@ -8,3 +8,4 @@ rvm:
 install: 
  - gem install selenium-webdriver
  - gem install rspec
+script: bundle exec rake all
