@@ -3,7 +3,7 @@ require 'rspec'
 
 describe "LivingSocial-SignUp" do
 before(:all) do
-	@driver = Selenium::WebDriver.for:firefox
+	@driver = Selenium::WebDriver.for:phantomjs
 	@driver.manage.window.maximize
 	@driver.navigate.to "http://livingsocial.com"
 	@wait = Selenium::WebDriver::Wait.new(:timeout => 30)
