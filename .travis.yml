@@ -5,5 +5,5 @@ rvm:
  - rbx-2
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
-gem install selenium-webdriver
-gem install rspec
+install: gem install selenium-webdriver
+install: gem install rspec
