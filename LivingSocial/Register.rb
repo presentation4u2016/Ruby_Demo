@@ -28,7 +28,7 @@ it "Verify User is able to SignUP using Credentials" do
 	@driver.find_element(:id, 'password_confirmation').send_keys "Welcome@123"
 #click on the email updates checkbox
 	@driver.find_element(:id, 'subscribe')
-#click on the Signup Button	
+#click on the Signup Butt
 	@driver.find_element(:xpath, "//button[contains(@type,'submit')]").click
 #check if registration is successful
 	begin
