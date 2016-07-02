@@ -3,7 +3,7 @@ require 'rake'
 require 'rspec/core/rake_task'
 
 
-############# ALL ############
+############# ALL ###########
 
 desc "Run all tests"
 # RUN ALL
